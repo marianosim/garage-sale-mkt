@@ -1,0 +1,64 @@
+nav {
+    background-color: #242423;
+}
+
+.top-banner {
+    background-color: rgb(77, 77, 77);
+    font-size: 0.7em;
+    text-align: center;
+    color: #CFDBD5;
+}
+
+.logo {
+    width: 12vh;
+}
+
+.navbar-toggler {
+    background-color: rgb(240, 224, 224) !important;
+}
+
+i {
+    color: white;
+}
+
+.cart-icon {
+    font-size: 1.5em;
+    color: #F5CB5C;
+}
+
+.brand-title {
+    text-align: center;
+    text-decoration: none !important;
+    color: #F5CB5C !important;
+    font-size: 1em !important;
+    font-weight: bold;
+}
+
+.navbar-link {
+    color: #333533 !important;
+    font-weight: bold !important;
+}
+
+#navbarScrollingDropdown {
+    color: #F5CB5C;
+}
+
+.navbar-alert {
+    display: flex;
+    justify-content: right;
+}
+
+.register-link {
+    font-size: 1rem !important;
+    padding-right: 1em !important;
+    font-weight: bold !important;
+}
+
+.sign-in-link {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+
+.cart-widget :hover {
+    opacity: 90%;
+}

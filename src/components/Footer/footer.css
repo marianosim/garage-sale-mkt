@@ -1,0 +1,32 @@
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5em;
+    margin-top: 10em;
+}
+
+.footer {
+    background: #333533;
+    height: 4em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+    border-top: 2px solid #c3bfbf;
+}
+
+.footer-content {
+    font-size: 0.8em;
+    color: #F5CB5C;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+i{
+    color: #F5CB5C;
+    background-color: #F5CB5C;
+    font-size: 2em;
+    z-index: 5;
+}

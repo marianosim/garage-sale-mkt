@@ -1,0 +1,32 @@
+.cart-container {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5em;
+}
+
+.cart-container h1 {
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.empty-cart-btn {
+    right: 1em;
+    font-weight: bold;
+}
+
+.empty-cart-container {
+    padding-left: 3em;
+}
+
+.empty-cart-container h2 {
+    font-weight: bold;
+}
+
+.return-home-btn {
+    margin-top: 3em;
+    font-size: 1em;
+}
+
+.cart-header {
+    margin-bottom: 2em;
+}
