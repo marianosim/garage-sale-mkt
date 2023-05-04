@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import { getSingleItem } from '../../services/firestore';
@@ -33,7 +33,7 @@ function ItemDetailContainer() {
   return (
     <Container fluid >
       {isLoading ? <LoadSpinner /> :
-        <ItemDetail item={item} />}
+        <ItemDetail {...item} />}
     </Container>
   )
 }

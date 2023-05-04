@@ -6,7 +6,7 @@ nav {
     background-color: rgb(77, 77, 77);
     font-size: 0.7em;
     text-align: center;
-    color: #CFDBD5;
+    color: #F5CB5C;
 }
 
 .logo {
@@ -52,11 +52,13 @@ i {
     font-size: 1rem !important;
     padding-right: 1em !important;
     font-weight: bold !important;
+    color: #F5CB5C !important;
 }
 
 .sign-in-link {
     font-size: 1rem !important;
     font-weight: bold !important;
+    color: #F5CB5C !important;
 }
 
 .cart-widget :hover {

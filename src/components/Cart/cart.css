@@ -30,3 +30,7 @@
 .cart-header {
     margin-bottom: 2em;
 }
+
+td {
+    font-weight: bold;
+}

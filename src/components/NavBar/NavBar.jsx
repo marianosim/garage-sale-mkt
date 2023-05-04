@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Alert from 'react-bootstrap/Alert';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../assets/KWLogo_redVariant.png';
+import logo from '../../assets/gsmkt-plain-log-black.png';
 import './navbar.css';
 import { NavbarBrand } from 'react-bootstrap';
 import CartWidget from './CartWidget';
@@ -49,7 +49,7 @@ function NavBar() {
           <Nav.Link as={Link} to='/cart' className='p-4 cart-widget'><CartWidget /></Nav.Link>
         </Container>
       </Navbar>
-      <Alert variant='secondary' style={{ borderTop: '2px solid #c3bfbf', borderBottom: '2px solid #c3bfbf' }}>
+      <Alert variant='secondary' style={{ backgroundColor: 'rgb(77, 77, 77)' }}>
         <div className='navbar-alert'>
           <Nav.Link as={Link} to='/' className='register-link'>Creá tu cuenta</Nav.Link>
           <Nav.Link as={Link} to='/' className='sign-in-link'>Iniciá Sesión</Nav.Link>

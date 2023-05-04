@@ -20,11 +20,11 @@ function Cart() {
                 <div className='cart-container'>
                     <div className='d-flex justify-content-between cart-header'>
                         <h1>¡Tu carrito de compra!</h1>
-                        <Button variant='outline-danger' className='empty-cart-btn' onClick={() => emptyCart()}>Vaciar carrito</Button>
+                        <Button variant='danger' className='empty-cart-btn' onClick={() => emptyCart()}>Vaciar carrito</Button>
                     </div>
                     <Table striped bordered hover responsive style={{ margin: 'auto', verticalAlign: 'middle', textAlign: 'center' }}>
-                        <thead style={{ backgroundColor: '#8f033b' }}>
-                            <tr style={{ color: 'white' }}>
+                        <thead style={{ backgroundColor: '#333533' }}>
+                            <tr style={{ color: '#F5CB5C' }}>
                                 <th></th>
                                 <th>Producto</th>
                                 <th>Cantidad</th>

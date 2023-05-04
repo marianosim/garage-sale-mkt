@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import Image from 'react-bootstrap/Image';
 import { Container } from 'react-bootstrap';
 import './ItemDetail.css';
@@ -11,7 +11,7 @@ import LoadSpinner from '../Spinner/Spinner';
 import Swal from 'sweetalert2';
 
 
-function ItemDetail({ item }) {
+function ItemDetail(item) {
   const [itemsOnCart, setItemsOnCart] = useState(false);
   const [qty, setQty] = useState(1);
 
@@ -39,7 +39,7 @@ function ItemDetail({ item }) {
           <div className='product-info'>
             <h2>{item.title}</h2>
             <Rating />
-            <h4>Precio: ${(item.price).toLocaleString('ES-AR')}</h4>
+            <h4>Precio: ${(item.price).toLocaleString('es-AR')}</h4>
             {!itemsOnCart ?
               <ItemCount qty={qty} setQty={setQty} stock={2} onAddToCart={handleAddToCart} /> :
               <div className='goToCart-btn-container'>
@@ -48,7 +48,7 @@ function ItemDetail({ item }) {
               </div>}
           </div>
         </div> : <LoadSpinner />}
-    </Container> 
+    </Container>
 
   )
 }

@@ -37,12 +37,14 @@
     display: flex;
     flex-direction: column;
 }
-.product-info{
+
+.product-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-left: 2em;
 }
-.goToCart-btn-container{
+
+.goToCart-btn-container {
     display: flex;
 }

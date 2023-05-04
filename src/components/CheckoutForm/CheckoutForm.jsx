@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './checkoutForm.css'
 import Button from 'react-bootstrap/Button';
@@ -72,7 +72,7 @@ const CheckoutForm = () => {
                     <Form.Label style={{ fontSize: '0.8em' }}>Correo Electrónico</Form.Label>
                     <Form.Control
                         type="email"
-                        placeholder="ej: info@kitchenwarehouse.com"
+                        placeholder="ej: info@garagesalemkt.com"
                         name='email'
                         onChange={handleInputChange}
                         value={formData.email}
@@ -93,7 +93,7 @@ const CheckoutForm = () => {
                     <Form.Check type="checkbox" label="Acepto recibir novedades y promociones" style={{ fontSize: '0.8em' }} />
                 </Form.Group>
                 <Button
-                    variant="primary"
+                    variant="warning"
                     type="submit"
                     disabled={!(formData.name !== '' && formData.phone !== '' && formData.email !== '' && formData.checkEmail !== '')}>
                     Finalizar compra

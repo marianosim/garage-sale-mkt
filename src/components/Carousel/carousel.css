@@ -1,8 +1,15 @@
 .carousel-container {
     width: 100%;
-    height: auto;
+    height: 20%;
 }
 
 .carousel-container h2 {
-    background-color: black;
+    background-color: #242423;
+    color: #F5CB5C;
+}
+
+.banner {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
 }
