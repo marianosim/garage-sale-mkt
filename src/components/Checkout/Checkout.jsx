@@ -31,8 +31,8 @@ const Checkout = () => {
           <p><strong>Teléfono:</strong> {orderData.buyer?.phone}</p>
           <p><strong>Correo electrónico:</strong> {orderData.buyer?.email}</p>
           <Table striped bordered hover responsive style={{ margin: 'auto', verticalAlign: 'middle', textAlign: 'center' }}>
-            <thead style={{ backgroundColor: '#8f033b' }}>
-              <tr style={{ color: 'white' }}>
+            <thead style={{ backgroundColor: '#333533' }}>
+              <tr style={{ color: '#F5CB5C' }}>
                 <th></th>
                 <th>Producto</th>
                 <th>Cantidad</th>
